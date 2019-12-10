@@ -31,6 +31,11 @@ section{
     background-color: #fff;
     display: inline-block;
 }
+@media only screen and (max-width: 550px) {
+    .card{
+        width: 90%;
+    }
+}
 .card-body{
     height: 75%;
 }
@@ -45,6 +50,12 @@ section{
     border-radius: 5px;
     cursor: pointer;
     color: white;
+}
+article{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 60px;
+    margin: 10px 0;
 }
 footer{
     background-color: #f4f5f7;
