@@ -46,3 +46,10 @@ section{
     cursor: pointer;
     color: white;
 }
+footer{
+    background-color: #f4f5f7;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
