@@ -13,37 +13,42 @@
 <section>
     <div class="card">
         <div class="card-body">
-            <h3>kalanithi</h3>
-            <p><span class="dark">Experience: </span> 3.5+ <span class="dark"> Title : </span> Software Engineer</p>
-            <h3>Company: Nielsen</h3>
+            <h3 id="name">kalanithi</h3>
+            <p id="experience"><span class="dark">Experience: </span> 3.5+</p>
+            <p id="title"><span class="dark"> Title : </span> Software Engineer</p>
+            <h3 id="company">Company: Nielsen</h3>
         </div>
         <div class="card-footer">
-            <button class="btn btn-primary" onclick="printMessage()">add me</button>
+            <button class="btn btn-primary" onclick="printMessage('kalanithi', 'Nielsen')">Add</button>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-            <h3>kalanithi</h3>
-            <p><span class="dark">Experience: </span> 3.5+ <span class="dark"> Title : </span> Software Engineer</p>
-            <h3>Company: Nielsen</h3>
+            <h3>Jack</h3>
+            <p><span class="dark">Experience: </span> 9+ <span class="dark"> Title : </span>Senior Software Engineer</p>
+            <h3>Company: Amazon</h3>
         </div>
         <div class="card-footer">
-            <button class="btn btn-primary">add me</button>
+            <button class="btn btn-primary" onclick="printMessage('Jack', 'Amazon')">Add</button>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-            <h3>kalanithi</h3>
-            <p><span class="dark">Experience: </span> 3.5+ <span class="dark"> Title : </span> Software Engineer</p>
-            <h3>Company: Nielsen</h3>
+            <h3>Rita</h3>
+            <p><span class="dark">Experience: </span> 2+ <span class="dark"> Title : </span> Software Engineer 1</p>
+            <h3>Company: Facebook</h3>
         </div>
         <div class="card-footer">
-            <button class="btn btn-primary">add me</button>
+            <button class="btn btn-primary" onclick="printMessage('Rita', 'Facebook')">Add</button>
         </div>
     </div>
 
+</section>
+<section>
+    <ul class="list-group" id="list">
+    </ul>
 </section>
 <article>
 <h3>Sample Article Section</h3>
