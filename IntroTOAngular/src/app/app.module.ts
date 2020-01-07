@@ -7,6 +7,7 @@ import { SliderComponent } from './components/slider/slider.component';
 import { LoginComponent } from './apps/login/login.component';
 import { HomeComponent } from './apps/home/home.component';
 import { DetailViewComponent } from './apps/detail-view/detail-view.component';
+import { LoginCardComponent } from './components/login-card/login-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DetailViewComponent } from './apps/detail-view/detail-view.component';
     SliderComponent,
     LoginComponent,
     HomeComponent,
-    DetailViewComponent
+    DetailViewComponent,
+    LoginCardComponent
   ],
   imports: [
     BrowserModule
