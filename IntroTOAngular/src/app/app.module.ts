@@ -9,6 +9,7 @@ import { HomeComponent } from './apps/home/home.component';
 import { DetailViewComponent } from './apps/detail-view/detail-view.component';
 import { LoginCardComponent } from './components/login-card/login-card.component';
 import { FacetedCarouselComponent } from './components/faceted-carousel/faceted-carousel.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FacetedCarouselComponent } from './components/faceted-carousel/faceted-
     HomeComponent,
     DetailViewComponent,
     LoginCardComponent,
-    FacetedCarouselComponent
+    FacetedCarouselComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

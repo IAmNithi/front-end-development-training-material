@@ -6,7 +6,7 @@
 /* Carousel base class */
 .carousel {
     margin-bottom: 2rem;
-    margin-top: 61px;
+    margin-top: 15px;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -33,4 +33,13 @@
   }
   .carousel-control-prev:hover, .carousel-control-next:hover{
     background-color: rgba(0,0,0,.75);
+  }
+  .card{
+      border-color: #1B2530;
+      cursor: pointer;
+      background: transparent;
+  }
+  .card-col{
+      padding-left: 3px;
+      padding-right: 3px;
   }
