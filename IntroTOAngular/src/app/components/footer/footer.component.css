@@ -1,0 +1,9 @@
+.bg-dark{
+    background-color: transparent !important;
+}
+.link-text{
+    color: #79b8f3;
+    font-weight: 600;
+    margin: 0 5px;
+    cursor: pointer;
+}
