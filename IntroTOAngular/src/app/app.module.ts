@@ -10,6 +10,7 @@ import { DetailViewComponent } from './apps/detail-view/detail-view.component';
 import { LoginCardComponent } from './components/login-card/login-card.component';
 import { FacetedCarouselComponent } from './components/faceted-carousel/faceted-carousel.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { DetailSectionComponent } from './components/detail-section/detail-section.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './components/footer/footer.component';
     DetailViewComponent,
     LoginCardComponent,
     FacetedCarouselComponent,
-    FooterComponent
+    FooterComponent,
+    DetailSectionComponent
   ],
   imports: [
     BrowserModule
