@@ -1,37 +1,7 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_InsideEdgeS2LaunchV3/23fb5f31-8df9-48b5-baea-5db0c9cbe7b9._UR3000,600_SX1500_FMwebp_.jpg" alt="First slide">
-      </div>
-      <div class="carousel-item">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/Hero_IN_Office_v1/2efa5ef6-b2f4-4c6f-ab0f-a120fa7d934a._UR3000,600_SX1500_FMwebp_.jpg" alt="Third slide">
-      </div>
-      <div class="carousel-item">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/Hero_IN_2andhalfmen_v1/efa21f30-ca41-4819-8679-04081d7dd3b9._UR3000,600_SX1500_FMjpg_.jpg" alt="Third slide">
-      </div>
-      <div class="carousel-item">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/Hero_IN_GreyAv2/24123796-d452-4f59-85fc-64d78f458623._UR3000,600_SX1500_FMwebp_.jpg" alt="Third slide">
-      </div>
-      <div class="carousel-item">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/Hero_IN_Mentalist/en_us-hero_in_mentalist-3000-600._UR3000,600_SX1500_FMwebp_.jpg" alt="Third slide">
-      </div>
-      <div class="carousel-item">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_SharkTankS10/cfbc46fa-90ed-4b37-8902-ca6a509b1f36._UR3000,600_SX3000_FMwebp_.jpg" alt="Third slide">
-      </div>
-      <div class="carousel-item">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/Hero_IN_Suits/28e7fe98-001d-44af-951b-a1b30427c219._UR3000,600_SX1500_FMwebp_.jpg" alt="Third slide">
-      </div>
-      <div class="carousel-item">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/Hero_IN_2brokev2/en_us-hero_in_2brokev2-3000-600._UR3000,600_SX1500_FMwebp_.jpg" alt="Third slide">
-      </div>
-      <div class="carousel-item">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/PV_IN_Youngsheldons3/ff624d13-65cf-4b95-ad04-de3202910734._UR3000,600_SX1500_FMwebp_.jpg" alt="Third slide">
-      </div>
-      <div class="carousel-item">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/Hero_IN_mirzapur_v1/6205d974-892a-4c63-8c5b-fa834eede65d._UR3000,600_SX1500_FMwebp_.jpg" alt="Third slide">
-      </div>
-      <div class="carousel-item">
-        <img class="img-fluid" src="https://m.media-amazon.com/images/G/01/digital/video/sonata/Hero_PV_IN_Hanna_Launch/47de5a2e-5571-4ecf-a9da-344bc2630563._UR3000,600_SX1500_FMwebp_.jpg" alt="Third slide">
+      <div class="carousel-item" [ngClass]="{active: i == 0}"  *ngFor="let item of sliderImage;  let i = index">
+        <img class="img-fluid" src="{{item.img}}" alt="{{item}}">
       </div>
     </div>
     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
