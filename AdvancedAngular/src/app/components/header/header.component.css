@@ -1,0 +1,12 @@
+.navbar-dark{
+    background-color: #1A242F !important;
+    color: rgba(242,244,246,.9) !important;
+}
+.active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #fff;
+}
+.left-nav-img > img{
+    padding: 0 10px;
+    cursor: pointer;
+}
