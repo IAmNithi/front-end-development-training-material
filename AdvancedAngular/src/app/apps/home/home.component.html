@@ -1,7 +1,6 @@
 <app-header></app-header>
 <app-slider [sliderImage]="data.banner"></app-slider>
-<app-faceted-carousel></app-faceted-carousel>
-<app-faceted-carousel></app-faceted-carousel>
-<app-faceted-carousel></app-faceted-carousel>
-<app-faceted-carousel></app-faceted-carousel>
+<div *ngFor="let facetData of data.Content">
+<app-faceted-carousel [slides]="facetData"></app-faceted-carousel>
+</div>
 <app-footer></app-footer>
