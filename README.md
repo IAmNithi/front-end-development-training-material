@@ -1,6 +1,12 @@
 # Front End Development Materials
 
-This Repo COntains Front End Developer Materials Which Include HTML, Css, JS and Angular.
+This Repo Contains Front End Developer Materials Which Include HTML, Css, JS and Angular.
+
+# HTML & CSS
+This Folder Contains a Basic App written with HTML,CSS and Vanilla JS.
+
+# Intro To Bootstrap
+This Folder Contains a Simple HTML App Running With Bootstrap CSS.
 
 # IntroToAngular 
 This Repo Contains the Basic Clone of Amazon PrimeVideo. 
